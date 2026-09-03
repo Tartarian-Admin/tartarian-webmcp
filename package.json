@@ -1,0 +1,12 @@
+{
+  "name": "tartarian-webmcp",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "test": "node scripts/webmcp_play_bridge_0a_smoke.mjs && node scripts/webmcp_play_bridge_0b_move_smoke.mjs && node scripts/webmcp_play_bridge_0c_target_command_smoke.mjs && node scripts/webmcp_play_bridge_0d_world_interaction_smoke.mjs && node scripts/webmcp_play_bridge_0e_inventory_freeze_smoke.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
